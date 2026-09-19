@@ -21,7 +21,7 @@ permissions:
 jobs:
   rdp:
     name: Start temporary Windows RDP session
-    runs-on: windows-latest
+    runs-on: windows-2022
     timeout-minutes: 330
     env:
       RDP_USERNAME: ${{ secrets.RDP_USERNAME }}
